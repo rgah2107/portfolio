@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ramon Alvarez — Portfolio
+
+Personal portfolio website for **Ramon Alvarez**, a Software Engineer focused on frontend development, the React ecosystem, and cloud integration.
+
+**Live site:** [https://portfolio-xi-lilac-16.vercel.app](https://portfolio-xi-lilac-16.vercel.app)
+
+## About
+
+A single-page marketing site built to showcase professional experience, skills, selected projects, education, and contact details. Content is driven from a central data file (`lib/data.ts`) so updates stay simple without touching layout code.
+
+### Sections
+
+- **Hero** — introduction and call-to-action
+- **About** — summary, highlights, and competencies
+- **Skills** — technical stack grouped by category
+- **Experience** — work history timeline
+- **Projects** — selected work with screenshots
+- **Education** — degree, certifications, languages, and testimonial
+- **Contact** — email, phone, location, and social links
+
+## Tech Stack
+
+- [Next.js 16](https://nextjs.org/) (App Router)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) — scroll-in section animations (respects `prefers-reduced-motion`)
+- [Lucide React](https://lucide.dev/) — icons
 
 ## Getting Started
 
-First, run the development server:
+Requires [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/).
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Other Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm build   # production build
+pnpm start   # run production server locally
+pnpm lint    # ESLint
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/                 # Next.js App Router (layout, page, styles)
+components/          # UI components and page sections
+lib/data.ts          # Site content (copy, links, projects, experience)
+public/projects/     # Project screenshots
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To update copy, links, or project images, edit `lib/data.ts` and add images under `public/projects/imgs/`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The project is deployed on [Vercel](https://vercel.com) and connected to the GitHub repository. Pushes to `main` trigger automatic production deployments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Manual deploy:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm dlx vercel@latest --prod
+```
+
+## License
+
+Private — all rights reserved.
