@@ -216,6 +216,10 @@ export const certifications = [
     url: "https://www.hackerrank.com/certificates/4a37607bcdba",
   },
   {
+    name: "HackerRank Frontend Developer (React) Certificate",
+    url: "https://www.hackerrank.com/certificates/7a5f1775350e",
+  },
+  {
     name: "EF SET English Certificate",
     detail: "C2 Proficient (71/100)",
     url: "http://www.efset.org/cert/1hne5E",
