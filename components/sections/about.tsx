@@ -9,7 +9,7 @@ export function About() {
           About
         </h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-balance text-zinc-50 sm:text-4xl">
-          Turning complex requirements into polished products
+          From UI to APIs to cloud—shipped end to end
         </p>
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-zinc-400">
           {about.summary}

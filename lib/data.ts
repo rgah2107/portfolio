@@ -1,8 +1,8 @@
 export const site = {
   name: "Ramon Alvarez",
-  title: "Software Engineer",
+  title: "Fullstack Engineer",
   tagline:
-    "I build fast, accessible web apps with React and Next.js—so your product ships reliably and scales with your business.",
+    "I build production web applications end-to-end—React/Next.js frontends, Node.js/Python backends, and AWS delivery—so your product ships reliably and scales.",
   email: "rgah2107@gmail.com",
   phone: "+375292345085",
   location: "Minsk, Belarus",
@@ -13,11 +13,11 @@ export const site = {
 
 export const about = {
   summary:
-    "Experienced Software Engineer with 8+ years specializing in frontend development, the React ecosystem, and cloud integration. I deliver scalable web applications and help teams move faster through solid architecture, testing, and clear communication.",
+    "Fullstack Software Engineer with 8+ years building production web applications across React/Next.js frontends and Node.js/Python backends, with hands-on cloud delivery on AWS. I deliver maintainable systems end-to-end—from UI architecture and testing to API design, integrations, performance, and CI/CD—while collaborating effectively with distributed teams.",
   highlights: [
-    "End-to-end ownership from design systems to production",
-    "AWS and GraphQL integrations for real-world products",
-    "Strong testing culture: unit, integration, and E2E",
+    "Full-stack ownership across UI, APIs, data, and cloud",
+    "NestJS, Express, and Flask with REST and GraphQL",
+    "AWS delivery: CI/CD, observability, and reliability",
     "Fluent in English (C2)—smooth collaboration with global teams",
   ],
 } as const;
@@ -56,32 +56,35 @@ export const skills = [
   {
     category: "Backend & Cloud",
     items: [
-      "NestJS",
       "Node.js",
+      "NestJS",
       "Express.js",
-      "MongoDB",
-      "AWS",
-      "Amplify",
+      "Flask",
+      "REST APIs",
       "GraphQL",
+      "MongoDB",
+      "PostgreSQL",
+      "AWS",
+      "AWS Amplify",
     ],
   },
   {
     category: "Tools",
-    items: ["Git", "Storybook", "Single SPA", "CASL"],
+    items: ["Git", "Storybook", "Single SPA"],
   },
 ] as const;
 
 export const experience = [
   {
-    role: "Frontend Developer",
+    role: "Fullstack Engineer",
     company: "DSPOT",
     period: "July 2022 – Present",
     duration: "3+ years",
     bullets: [
-      "Develop and maintain React-based web applications with TypeScript",
-      "Integrate applications with AWS APIs and cloud services",
-      "Write comprehensive unit and integration tests using Jest and Vitest",
-      "Perform code reviews and maintain application performance",
+      "Develop and maintain React and Next.js web applications with TypeScript, TanStack Query, Redux Toolkit, and Tailwind CSS",
+      "Build and maintain backend services with NestJS (REST/GraphQL), including auth, validation, and background jobs",
+      "Own AWS delivery and DevOps: CI/CD, environment promotion, observability, and production reliability",
+      "Write unit and integration tests with Jest and Vitest",
     ],
     stack: [
       "Next.js",
@@ -90,60 +93,67 @@ export const experience = [
       "Tailwind CSS",
       "TanStack Query",
       "Redux Toolkit",
-      "AWS Amplify",
-      "Vitest",
       "NestJS",
-      "jQuery",
+      "GraphQL",
+      "AWS",
+      "Jest",
+      "Vitest",
     ],
   },
   {
-    role: "Frontend Developer",
+    role: "Fullstack Engineer",
     company: "Qa-bit",
     period: "August 2025 – January 2026",
     duration: "6 months",
     bullets: [
-      "Develop and maintain React-based web applications with TypeScript",
-      "Integrate applications with NestJS APIs and cloud services",
-      "Perform code reviews and maintain application performance",
+      "Built and maintained React and Next.js applications with TypeScript and Tailwind CSS",
+      "Delivered backend endpoints with Express.js: REST APIs, validation, error handling, and data access",
+      "Integrated frontend and backend for performance and reliability; improved build and deploy workflows",
     ],
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Express.js",
+      "REST APIs",
+    ],
   },
   {
-    role: "Frontend Developer",
+    role: "Fullstack Engineer",
     company: "DATAMART",
     period: "November 2020 – July 2022",
     duration: "1 year 9 months",
     bullets: [
-      "Developed micro web applications using React and TypeScript",
-      "Built React component library with Storybook documentation",
-      "Integrated applications with AWS APIs and GraphQL",
+      "Developed micro frontend applications with React, TypeScript, and Single SPA",
+      "Built React component library with Storybook; integrated AWS APIs and GraphQL",
+      "Implemented Flask backend services for internal tools and micro-frontend orchestration",
     ],
     stack: [
       "React",
       "TypeScript",
-      "Node.js",
-      "MongoDB",
-      "AWS",
       "Single SPA",
+      "Storybook",
+      "Flask",
       "GraphQL",
+      "AWS",
     ],
   },
   {
-    role: "Frontend Developer",
+    role: "Frontend Engineer",
     company: "NEXXTWAY",
     period: "April 2020 – November 2020",
     duration: "8 months",
     bullets: [
-      "Developed React component library (React Rainbow Component)",
-      "Implemented comprehensive testing suite (unit, integration, E2E)",
+      "Developed React Rainbow open-source component library with Styled Components",
+      "Implemented unit, integration, and E2E tests with Jest, Cypress, and WebdriverIO",
     ],
     stack: [
       "React",
-      "JavaScript",
+      "Styled Components",
       "Jest",
       "Cypress",
       "WebdriverIO",
-      "Styled Components",
     ],
   },
   {
@@ -152,10 +162,10 @@ export const experience = [
     period: "November 2018 – July 2021",
     duration: "2 years 9 months",
     bullets: [
-      "Full software development lifecycle from vision to implementation",
-      "Software requirement analysis and object-oriented development",
+      "Led full software development lifecycle using Flutter and Odoo (custom modules and integrations)",
+      "Extended Odoo backends in Python: models, workflows, reporting, and external system integrations",
     ],
-    stack: ["Flutter", "Odoo"],
+    stack: ["Flutter", "Dart", "Python", "Odoo"],
   },
 ] as const;
 
@@ -164,24 +174,32 @@ export const projects = [
     title: "Enterprise Web Platform",
     company: "DSPOT",
     description:
-      "Production React/Next.js application with AWS integration, robust state management, and full test coverage.",
-    stack: ["Next.js", "TypeScript", "AWS Amplify", "TanStack Query", "NestJS"],
+      "Production React/Next.js frontend with NestJS APIs, AWS delivery, CI/CD, and full test coverage across the stack.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "GraphQL",
+      "AWS",
+      "TanStack Query",
+      "Vitest",
+    ],
     image: "/projects/imgs/dspot-project.png",
   },
   {
     title: "SaaS Web Application",
     company: "Qa-bit",
     description:
-      "Modern React/Next.js product integrated with NestJS APIs—focused on performance, maintainability, and clean UI.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "NestJS"],
+      "Fullstack React/Next.js product with Express.js REST APIs—focused on integration, performance, and reliable delivery.",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Express.js"],
     image: "/projects/imgs/qa-bit-project.png",
   },
   {
     title: "Micro-Frontend Ecosystem",
     company: "DATAMART",
     description:
-      "Modular micro web apps with a shared component library, GraphQL APIs, and Single SPA orchestration.",
-    stack: ["React", "Single SPA", "GraphQL", "Storybook"],
+      "Micro frontends with Single SPA, shared Storybook library, GraphQL integrations, and Flask services for orchestration.",
+    stack: ["React", "Single SPA", "Flask", "GraphQL", "Storybook", "AWS"],
     image: "/projects/imgs/datamart-project.png",
   },
   {
@@ -203,7 +221,7 @@ export const projects = [
 ] as const;
 
 export const education = {
-  degree: "Computer Science Engineer",
+  degree: "Bachelor of Science, Computer Science Engineering",
   school: "University of Informatic Sciences",
   year: 2018,
   thesis:
@@ -232,10 +250,10 @@ export const languages = [
 ] as const;
 
 export const competencies = [
-  "Problem Solving",
-  "Fast Learning",
+  "End-to-End Delivery",
+  "API Design",
   "Team Collaboration",
-  "Multitasking",
+  "Problem Solving",
 ] as const;
 
 export const testimonial = {

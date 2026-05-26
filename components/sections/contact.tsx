@@ -17,7 +17,7 @@ export function Contact() {
           Let&apos;s build something together
         </p>
         <p className="mt-4 max-w-xl text-lg text-zinc-400">
-          Looking for a senior frontend engineer for your next product, refactor, or
+          Looking for a fullstack engineer for your next product, API work, or
           greenfield app? Reach out—I typically respond within 24 hours.
         </p>
 
