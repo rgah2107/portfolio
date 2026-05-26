@@ -2,7 +2,7 @@ export const site = {
   name: "Ramon Alvarez",
   title: "Fullstack Engineer",
   tagline:
-    "I build production web applications end-to-end—React/Next.js frontends, Node.js/Python backends, and AWS delivery—so your product ships reliably and scales.",
+    "I build production web applications end-to-end—React/Next.js frontends and NestJS/Python backends—so your product ships reliably and scales.",
   email: "rgah2107@gmail.com",
   phone: "+375292345085",
   location: "Minsk, Belarus",
