@@ -13,11 +13,11 @@ export const site = {
 
 export const about = {
   summary:
-    "Fullstack Software Engineer with 8+ years building production web applications across React/Next.js frontends and Node.js/Python backends, with hands-on cloud delivery on AWS. I deliver maintainable systems end-to-end—from UI architecture and testing to API design, integrations, performance, and CI/CD—while collaborating effectively with distributed teams.",
+    "Fullstack Software Engineer with 8+ years building production web applications across React/Next.js frontends and NestJS/Python backends. I deliver maintainable systems end-to-end—from UI architecture and testing to API design, integrations, performance, and CI/CD—while collaborating effectively with distributed teams.",
   highlights: [
-    "Full-stack ownership across UI, APIs, data, and cloud",
+    "Full-stack ownership across UI, APIs, and data",
     "NestJS, Express, and Flask with REST and GraphQL",
-    "AWS delivery: CI/CD, observability, and reliability",
+    "CI/CD, integrations, performance, and reliability",
     "Fluent in English (C2)—smooth collaboration with global teams",
   ],
 } as const;
@@ -83,7 +83,7 @@ export const experience = [
     bullets: [
       "Develop and maintain React and Next.js web applications with TypeScript, TanStack Query, Redux Toolkit, and Tailwind CSS",
       "Build and maintain backend services with NestJS (REST/GraphQL), including auth, validation, and background jobs",
-      "Own AWS delivery and DevOps: CI/CD, environment promotion, observability, and production reliability",
+      "Own delivery and DevOps: CI/CD, environment promotion, observability, and production reliability",
       "Write unit and integration tests with Jest and Vitest",
     ],
     stack: [
@@ -126,7 +126,7 @@ export const experience = [
     duration: "1 year 9 months",
     bullets: [
       "Developed micro frontend applications with React, TypeScript, and Single SPA",
-      "Built React component library with Storybook; integrated AWS APIs and GraphQL",
+      "Built React component library with Storybook; integrated APIs and GraphQL",
       "Implemented Flask backend services for internal tools and micro-frontend orchestration",
     ],
     stack: [
@@ -174,7 +174,7 @@ export const projects = [
     title: "Enterprise Web Platform",
     company: "DSPOT",
     description:
-      "Production React/Next.js frontend with NestJS APIs, AWS delivery, CI/CD, and full test coverage across the stack.",
+      "Production React/Next.js frontend with NestJS APIs, CI/CD, and full test coverage across the stack.",
     stack: [
       "Next.js",
       "TypeScript",

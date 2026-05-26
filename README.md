@@ -1,6 +1,6 @@
 # Ramon Alvarez — Portfolio
 
-Personal portfolio website for **Ramon Alvarez**, a Fullstack Engineer building production web apps across React/Next.js frontends, Node.js/Python backends, and AWS.
+Personal portfolio website for **Ramon Alvarez**, a Fullstack Engineer building production web apps across React/Next.js frontends and NestJS/Python backends.
 
 **Live site:** [https://portfolio-xi-lilac-16.vercel.app](https://portfolio-xi-lilac-16.vercel.app)
 
