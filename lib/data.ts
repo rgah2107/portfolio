@@ -40,7 +40,6 @@ export const skills = [
       "React Hook Form",
       "Styled Components",
       "Flutter",
-      "jQuery",
     ],
   },
   {
@@ -70,21 +69,21 @@ export const skills = [
   },
   {
     category: "Tools",
-    items: ["Git", "Storybook", "Single SPA"],
+    items: ["Git", "CI/CD", "Storybook", "Single SPA"],
   },
 ] as const;
 
 export const experience = [
   {
-    role: "Fullstack Engineer",
+    role: "Senior Fullstack Engineer",
     company: "DSPOT",
     period: "July 2022 – Present",
     duration: "3+ years",
     bullets: [
-      "Develop and maintain React and Next.js web applications with TypeScript, TanStack Query, Redux Toolkit, and Tailwind CSS",
-      "Build and maintain backend services with NestJS (REST/GraphQL), including auth, validation, and background jobs",
-      "Own delivery and DevOps: CI/CD, environment promotion, observability, and production reliability",
-      "Write unit and integration tests with Jest and Vitest",
+      "Develop and maintain scalable React and Next.js applications using TypeScript, Redux Toolkit, TanStack Query, and Tailwind CSS",
+      "Build and maintain backend services with NestJS (GraphQL/REST), including authentication, authorization, validation, and background jobs",
+      "Own AWS delivery workflows: CI/CD pipelines, environment promotion, monitoring, and production troubleshooting",
+      "Improve reliability and maintainability through automated testing with Jest and Vitest",
     ],
     stack: [
       "Next.js",
@@ -102,41 +101,23 @@ export const experience = [
   },
   {
     role: "Fullstack Engineer",
-    company: "Qa-bit",
-    period: "August 2025 – January 2026",
-    duration: "6 months",
-    bullets: [
-      "Built and maintained React and Next.js applications with TypeScript and Tailwind CSS",
-      "Delivered backend endpoints with Express.js: REST APIs, validation, error handling, and data access",
-      "Integrated frontend and backend for performance and reliability; improved build and deploy workflows",
-    ],
-    stack: [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Express.js",
-      "REST APIs",
-    ],
-  },
-  {
-    role: "Fullstack Engineer",
     company: "DATAMART",
     period: "November 2020 – July 2022",
     duration: "1 year 9 months",
     bullets: [
-      "Developed micro frontend applications with React, TypeScript, and Single SPA",
-      "Built React component library with Storybook; integrated APIs and GraphQL",
-      "Implemented Flask backend services for internal tools and micro-frontend orchestration",
+      "Developed micro-frontend applications using React, TypeScript, and Single SPA architecture",
+      "Built and maintained reusable React component libraries with Storybook to improve consistency and scalability",
+      "Integrated AWS APIs and GraphQL services into frontend applications for enterprise workflows",
+      "Implemented backend services with Express.js supporting internal tools, authentication flows, and integrations",
     ],
     stack: [
       "React",
       "TypeScript",
       "Single SPA",
       "Storybook",
-      "Flask",
       "GraphQL",
       "AWS",
+      "Express.js",
     ],
   },
   {
@@ -164,6 +145,7 @@ export const experience = [
     bullets: [
       "Led full software development lifecycle using Flutter and Odoo (custom modules and integrations)",
       "Extended Odoo backends in Python: models, workflows, reporting, and external system integrations",
+      "Automated business processes and improved operational consistency across deployments",
     ],
     stack: ["Flutter", "Dart", "Python", "Odoo"],
   },
@@ -187,19 +169,11 @@ export const projects = [
     image: "/projects/imgs/dspot-project.png",
   },
   {
-    title: "SaaS Web Application",
-    company: "Qa-bit",
-    description:
-      "Fullstack React/Next.js product with Express.js REST APIs—focused on integration, performance, and reliable delivery.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Express.js"],
-    image: "/projects/imgs/qa-bit-project.png",
-  },
-  {
     title: "Micro-Frontend Ecosystem",
     company: "DATAMART",
     description:
-      "Micro frontends with Single SPA, shared Storybook library, GraphQL integrations, and Flask services for orchestration.",
-    stack: ["React", "Single SPA", "Flask", "GraphQL", "Storybook", "AWS"],
+      "Micro frontends with Single SPA, shared Storybook library, GraphQL integrations, and AWS-backed enterprise workflows.",
+    stack: ["React", "Single SPA", "GraphQL", "Storybook", "AWS"],
     image: "/projects/imgs/datamart-project.png",
   },
   {
