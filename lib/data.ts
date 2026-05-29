@@ -213,8 +213,8 @@ export const certifications = [
   },
   {
     name: "EF SET English Certificate",
-    detail: "C2 Proficient (71/100)",
-    url: "http://www.efset.org/cert/1hne5E",
+    detail: "C2 Proficient (82/100)",
+    url: "https://cert.efset.org/en/rarvkY",
   },
 ] as const;
 
